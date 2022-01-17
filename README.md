@@ -10,6 +10,8 @@ pip install git+https://github.com/abbaskhanezad/password-generator
 ## Examples
 
 ```sh
+from PasswordGenerator import generate_password
+
 password = generate_password()  # tEr#IJ}U7n
 
 password = generate_password(length=20)   #AYD<Z2bse33/'RCB}6jj
