@@ -1,13 +1,15 @@
-password-generator
-Table of contents
-How To Install
-Examples
-How To Install
+# password-generator
+## generete safe and custom password
+
+## How To Install
+
+```sh
 pip install git+https://github.com/abbaskhanezad/password-generator
-Examples
-from PasswordGenerator import generate_password
 
+```
+## Examples
 
+```sh
 password = generate_password()  # tEr#IJ}U7n
 
 password = generate_password(length=20)   #AYD<Z2bse33/'RCB}6jj
@@ -19,3 +21,4 @@ password = generate_password(use_lower=False, use_punctuation=False)  #xhulpubsx
 password = generate_password(use_number=False)   #bcM,yLX[i}
 
 password = generate_password(use_punctuation=False, use_lower=False, use_upper=False)  #3663572030
+```
